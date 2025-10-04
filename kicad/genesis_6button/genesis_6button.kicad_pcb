@@ -5837,6 +5837,58 @@
 		(layer "Edge.Cuts")
 		(uuid "eb624b37-a299-4368-83be-e9c8c84b8f66")
 	)
+	(gr_text "D"
+		(at 94 61.5 0)
+		(layer "F.SilkS")
+		(uuid "19d42d32-52d7-4c4b-b98a-1c382f4209b1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R"
+		(at 94 59 0)
+		(layer "F.SilkS")
+		(uuid "1f8f01d2-169b-45c0-990b-3199c6843e67")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Z"
+		(at 101 48 0)
+		(layer "F.SilkS")
+		(uuid "24f77738-bb80-422f-87d5-26fd32e653e5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 101 56.5 0)
+		(layer "F.SilkS")
+		(uuid "2a47018b-60bc-448f-aca1-5ae03e8d7548")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "USBtinyISP"
 		(at 138.049 62.4078 0)
 		(layer "F.SilkS")
@@ -5845,6 +5897,45 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L"
+		(at 94 56.5 0)
+		(layer "F.SilkS")
+		(uuid "2ac669d0-ef46-4db0-ad1c-28e37691d1e2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Y"
+		(at 101 51 0)
+		(layer "F.SilkS")
+		(uuid "377603e7-963b-416c-8347-0472acb1ed2d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S"
+		(at 101 64 0)
+		(layer "F.SilkS")
+		(uuid "4b516ff6-37e4-4615-b75b-3fc0a2dfee3d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -5861,6 +5952,58 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "C"
+		(at 94 48 0)
+		(layer "F.SilkS")
+		(uuid "72d28ce4-d258-4d3f-8269-99b441358142")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M"
+		(at 101 61.5 0)
+		(layer "F.SilkS")
+		(uuid "738bc36b-2a86-46c7-863c-7912a11d01a4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 101 59 0)
+		(layer "F.SilkS")
+		(uuid "7708e579-86a1-4a27-92e6-968f48617f7f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 94 54 0)
+		(layer "F.SilkS")
+		(uuid "7dd78558-b22c-486d-a07a-06cb79d66151")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "https://github.com/rfmerrill/genesis_6button 2022"
 		(at 89.3572 74.4982 0)
 		(layer "F.SilkS")
@@ -5869,6 +6012,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "U"
+		(at 94 64 0)
+		(layer "F.SilkS")
+		(uuid "afff7142-6fcf-44a6-a882-29d9375c9d45")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -5906,6 +6062,32 @@
 			(font
 				(size 1 1)
 				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "X"
+		(at 101 54 0)
+		(layer "F.SilkS")
+		(uuid "d53f141f-5a54-4a77-b3a1-3f8caffe1110")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 94 51 0)
+		(layer "F.SilkS")
+		(uuid "d581c50b-189c-4558-be3e-e6e60d95af64")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom)
