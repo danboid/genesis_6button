@@ -5216,6 +5216,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "74HC257"
+		(at 127.381 51.9938 90)
+		(layer "F.SilkS")
+		(uuid "b6a83013-714c-4f9c-bd8d-0a9764f5229b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "ATtiny404"
 		(at 140.98 49.657 0)
 		(layer "F.SilkS")
@@ -5228,7 +5241,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "6 button Sega Mega Drive controller PCB"
+	(gr_text "74HC257"
+		(at 127.6096 70.612 90)
+		(layer "F.SilkS")
+		(uuid "c6e5bc65-52b6-456d-b30a-290e90626695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "6 button Sega Mega Drive controller PCB V1.0"
 		(at 89.8398 40.1828 0)
 		(layer "F.SilkS")
 		(uuid "fd5359fd-5db4-4e2a-b1d4-d8bc55f8127a")
