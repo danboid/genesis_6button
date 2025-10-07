@@ -5797,6 +5797,50 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_circle
+		(center 152.5 45.847)
+		(end 152.8 45.847)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "179a9151-fdec-4d7b-b881-bc9142648d79")
+	)
+	(gr_circle
+		(center 141.5 54)
+		(end 141.8 54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "559be203-55e1-49d5-99d9-4f47416ff556")
+	)
+	(gr_circle
+		(center 122 62)
+		(end 122.3 62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d6516c3a-ebb4-4b66-af8f-9404e6de4ff7")
+	)
+	(gr_circle
+		(center 122 44)
+		(end 122.3 44)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f856517e-0154-4bf9-af95-14b650276bf1")
+	)
 	(gr_arc
 		(start 90 75)
 		(mid 89.292893 74.707107)
@@ -5881,6 +5925,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fc5e9cbb-eabf-4ac3-bbd1-513b2857ff56")
 	)
+	(gr_text "L"
+		(at 157 52 0)
+		(layer "F.SilkS")
+		(uuid "02356d32-5b5b-4cac-a63f-7e291667354a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "D"
 		(at 94 61.5 0)
 		(layer "F.SilkS")
@@ -5888,7 +5944,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -5901,20 +5957,20 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "Z"
-		(at 101 48 0)
+		(at 101 48.5 0)
 		(layer "F.SilkS")
 		(uuid "24f77738-bb80-422f-87d5-26fd32e653e5")
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -5927,19 +5983,19 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "USBtinyISP"
-		(at 138.049 62.4078 0)
+	(gr_text "UPDI"
+		(at 139 63 0)
 		(layer "F.SilkS")
 		(uuid "2a7fcf35-1054-4ad2-a3e2-90ccd791b995")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 			(justify left bottom)
@@ -5952,7 +6008,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -5965,7 +6021,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -5978,32 +6034,80 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "1"
-		(at 156.27 47.117 0)
+	(gr_text "+5V"
+		(at 157 57 0)
 		(layer "F.SilkS")
-		(uuid "56299ee5-99e8-4f6b-a604-334157db41c7")
+		(uuid "5431e660-c87e-460f-9821-54acb35d2900")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 157 64.5 0)
+		(layer "F.SilkS")
+		(uuid "5524db8e-e26f-460e-a687-050a6deb14b7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TL"
+		(at 157 59.5 0)
+		(layer "F.SilkS")
+		(uuid "629ebd4c-314f-41e7-9be0-85ab3bdb04e3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TR\n"
+		(at 157 67 0)
+		(layer "F.SilkS")
+		(uuid "6a0687e8-171c-4b60-a4f9-73d7d9ba14cc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TH\n"
+		(at 157 62 0)
+		(layer "F.SilkS")
+		(uuid "70c60293-381f-45d4-b51a-fd055fd5492d")
+		(effects
+			(font
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "C"
-		(at 94 48 0)
+		(at 94 48.5 0)
 		(layer "F.SilkS")
 		(uuid "72d28ce4-d258-4d3f-8269-99b441358142")
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -6016,7 +6120,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -6029,7 +6133,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -6042,19 +6146,31 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "https://github.com/rfmerrill/genesis_6button 2022"
-		(at 89.3572 74.4982 0)
+	(gr_text "https://github.com/rfmerrill/genesis_6button"
+		(at 90 74.5 0)
 		(layer "F.SilkS")
 		(uuid "8a88f135-f0a4-426a-ad43-2839227761fd")
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "U"
+		(at 157 47 0)
+		(layer "F.SilkS")
+		(uuid "8df19d9f-620a-41ed-8af2-d2c0d242b021")
+		(effects
+			(font
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 			(justify left bottom)
@@ -6067,7 +6183,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -6080,14 +6196,13 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.25)
-				(bold yes)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "ATtiny404"
-		(at 140.98 49.657 0)
+		(at 142 50.5 0)
 		(layer "F.SilkS")
 		(uuid "bd1d9767-0e98-44c8-8d3b-05cfdb3058ff")
 		(effects
@@ -6105,8 +6220,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.25)
-				(bold yes)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -6118,7 +6232,7 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -6131,14 +6245,38 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
+	(gr_text "D"
+		(at 157 49.5 0)
+		(layer "F.SilkS")
+		(uuid "de5833bc-8dfa-47b3-b27d-9bb576cbf677")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R"
+		(at 157 54.5 0)
+		(layer "F.SilkS")
+		(uuid "fbba8b1f-0ed8-453a-9305-3bbbab553fde")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "6 button Sega Mega Drive controller PCB V1.0"
-		(at 89.8398 40.1828 0)
+		(at 90 40 0)
 		(layer "F.SilkS")
 		(uuid "fd5359fd-5db4-4e2a-b1d4-d8bc55f8127a")
 		(effects
