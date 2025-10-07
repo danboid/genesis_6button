@@ -1,12 +1,12 @@
-# Six button Sega Mega Drive controller PCB
+# Six button Sega Mega Drive controller board
 
-This is a KiCad project for a six button Sega Mega Drive / Genesis controller board and ATTiny404 micro controller code to implement a replacement for the Sega controller's custom chip. It should also work with the ZX Spectrum Next.
+This repository contains a KiCad project for a six button Sega Mega Drive / Genesis controller board as well as ATTiny404 micro controller code to implement a replacement for the 6 button Sega Mega Drive controller's custom chip. This board should also work with the ZX Spectrum Next.
 
 **Note: the `main` HEAD is not necessarily tested! Tested revisions of the board+firmware will be tagged**
 
-See a tested build [here.](https://oshpark.com/shared_projects/aK2wBkfg)
+You can order the original, tested version of this board pre-assembled [here.](https://oshpark.com/shared_projects/aK2wBkfg)
 
-v1.0 uses a 14-pin dual row header used for the buttons because I was unaware of the brook 20 pin header at the time. I might add that pinout to future boards.
+The original version of this board used a 14-pin dual row header for the buttons because I was unaware of the brook 20 pin header at the time. I might add that pinout to future boards.
 
 ## How do I program the controller?
 
@@ -28,4 +28,4 @@ The cable is connected to the J2 header using this pinout:
 
 ![Mega Drive controller cable pinout](Mega-Drive-DB9-pinout.jpg)
 
-Pin 1 is marked on the controller PCB with a square pad and a number 1 printed next to it on the silkscreen.
+Pin 1 on J2 and all of the chips is marked on the PCB silkscreen with a small white dot to the side of pin 1.
