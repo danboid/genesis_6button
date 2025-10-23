@@ -17,7 +17,7 @@ UPDI has been supported by **avrdude** since v7. Check that your programmer supp
 Under Linux, you would use a command like this to program the controller:
 
 ```
-avrdude -c jtag2updi -p t404 -P /dev/ttyUSB0 -U flash:w:main.hex:i
+avrdude -c usbtiny -p t404 -U flash:w:main.hex:i
 ```
 
 The -c parameter sets the programmer to use, see the [avrdude documention](https://avrdudes.github.io/avrdude/) for supported programmers.
