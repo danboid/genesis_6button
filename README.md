@@ -17,10 +17,12 @@ There are several ways to program the ATtiny404 but probably the most affordable
 You will need the following:
 
 * A USB serial adapter such as the [FTDI FT232](https://www.amazon.co.uk/dp/B07BBPX8B8)
-* A 4.7 KOhm resistor. A resistor in the ramge of 3.3K to 10KOhm should be fine if you don't have a 4.7KOhm.
+* A 4.7 KOhm resistor. A resistor in the range of 3.3K to 10KOhm should be fine if you don't have a 4.7KOhm resistor.
 * 5x female to female jumper (DuPont) wires.
 
-The +5V and GND headers are wired directly from the serial adapter to the UPDI header. You must create a "Y" jumper cable that connects both the RX and TX pins on your serial adapter to the single UPDI pin on the controller PCB. The UPDI pin is the bottom left UPDI header pin that has the square footprint in this schematic screenshot and the resistor needs to be connected to the TX wire of your Y cable. Ensure that your serial adapter voltage selection header is set to 5V.
+The +5V and GND headers are wired directly from the serial adapter to the UPDI header. You must create a "Y" jumper cable that connects both the RX and TX pins on your serial adapter to the single UPDI pin on the controller PCB.
+
+The UPDI pin is the bottom left UPDI header pin that has the square footprint in this schematic screenshot. The resistor needs to be connected to the TX wire of your Y cable. Ensure that your serial adapter voltage selection header is set to 5V.
 
 ![UPDI header schematic](UPDI-header-pinout.png)
 
@@ -38,7 +40,7 @@ Or under Windows:
 avrdude.exe -p t404 -c serialupdi -P COM3 -U flash:w:main.hex
 ```
 
-Make sure you set the serial port device correctly.
+Make sure you set the serial port device correctly by checking **dmesg** output under Linux or **Device Manager** under Windows.
 
 ## How do I wire the cable?
 
