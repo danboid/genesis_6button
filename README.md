@@ -28,6 +28,8 @@ The UPDI pin is the bottom left UPDI header pin that has the square footprint in
 
 ![USB serial to UPDI header wiring](UPDI-wiring.jpg)
 
+You should only need to have the ATtiny and the UPDI header soldered to the PCB to program it.
+
 Once you have the board connected as shown above, you can program the firmware under Linux using:
 
 ```
