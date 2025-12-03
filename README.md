@@ -4,8 +4,6 @@ This repository contains a KiCad project for a six button Sega Mega Drive / Gene
 
 **Note: the `main` HEAD is not necessarily tested! Tested revisions of the board+firmware will be tagged**
 
-You can order the original, tested version of this board pre-assembled [here.](https://oshpark.com/shared_projects/aK2wBkfg)
-
 The original version of this board used a 14-pin dual row header for the buttons because I was unaware of the brook 20 pin header at the time. I might add that pinout to future boards.
 
 ## How do I program the controller?
@@ -39,7 +37,7 @@ avrdude  -p t404 -c serialupdi -P /dev/ttyUSB0 -U flash:w:main.hex
 Or under Windows:
 
 ```
-avrdude.exe -p t404 -c serialupdi -P COM3 -U flash:w:main.hex
+avrdude.exe -p t404 -c serialupdi -P COM6 -U flash:w:main.hex
 ```
 
 Make sure you set the serial port device correctly by checking **dmesg** output under Linux or **Device Manager** under Windows.
