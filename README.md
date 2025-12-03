@@ -49,3 +49,9 @@ The cable is connected to the J2 header using this pinout:
 ![Mega Drive controller cable pinout](Mega-Drive-connector-pinout.jpg)
 
 Pin 1 on J2 and all of the chips is marked on the PCB silkscreen with a small white dot to the side of pin 1.
+
+## Credits
+
+Schematic and ATtiny code by [R.F.Merrill](https://github.com/rfmerrill)
+
+Silkscreen and documentation by [Dan MacDonald](https://github.com/danboid/)
