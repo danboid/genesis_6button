@@ -46,6 +46,6 @@ Make sure you set the serial port device correctly by checking **dmesg** output 
 
 The cable is connected to the J2 header using this pinout:
 
-![Mega Drive controller cable pinout](Mega-Drive-DB9-pinout.jpg)
+![Mega Drive controller cable pinout](Mega-Drive-connector-pinout.jpg)
 
 Pin 1 on J2 and all of the chips is marked on the PCB silkscreen with a small white dot to the side of pin 1.
