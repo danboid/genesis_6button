@@ -42,13 +42,17 @@ avrdude.exe -p t404 -c serialupdi -P COM6 -U flash:w:main.hex
 
 Make sure you set the serial port device correctly by checking **dmesg** output under Linux or **Device Manager** under Windows.
 
-## How do I wire the cable?
+## Building a joystick
 
 The cable is connected to the J2 header using this pinout:
 
 ![Mega Drive controller cable pinout](Mega-Drive-connector-pinout.jpg)
 
 Pin 1 on J2 and all of the chips is marked on the PCB silkscreen with a small white dot to the side of pin 1.
+
+Here's photo of this board wired up to a Sanwa clone joystick and housed within a 3D printed [Uzebox fightstick](https://uzebox.org/wiki/Joystick) case:
+
+![Sanwa joystick in Uzebox fightstick case](Wired--MD-controller.jpg)
 
 ## Credits
 
