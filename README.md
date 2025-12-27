@@ -1,6 +1,6 @@
-# Six button Sega Mega Drive controller board
+# Six button Sega Mega Drive / Genesis controller board
 
-This repository contains a KiCad project for a six button Sega Mega Drive / Genesis controller board as well as ATTiny404 micro controller code to implement a replacement for the 6 button Sega Mega Drive controller's custom chip. This board should also work with the ZX Spectrum Next.
+This repository contains a KiCad project for a six button Sega Mega Drive / Genesis controller board as well as ATTiny404 micro controller code to implement a replacement for the 6 button Sega Mega Drive controller's custom chip. This board is also compatible with the ZX Spectrum Next and its clones.
 
 **Note: the `main` HEAD is not necessarily tested! Tested revisions of the board+firmware will be tagged**
 
