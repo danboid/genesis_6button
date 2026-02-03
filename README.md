@@ -4,9 +4,9 @@ This repository contains a KiCad project for a six button Sega Mega Drive / Gene
 
 **Note: the `main` HEAD is not necessarily tested! Tested revisions of the board+firmware will be tagged**
 
-The original version of this board used a 14-pin dual row header for the buttons because I was unaware of the brook 20 pin header at the time. I might add that pinout to future boards.
-
 ## How do I program the controller?
+
+**DISCLAIMER: This project is provided "as is" for educational purposes only. The authors shall not be held liable for any damage to equipment, data loss, or personal injury incurred through the assembly or use of this project. Proceed at your own risk.**
 
 The ATtiny404 uses UPDI (Unified Program and Debug Interface) for programming, not ISP like older AVR MCUs. 
 
