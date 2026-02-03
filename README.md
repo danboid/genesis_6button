@@ -22,9 +22,9 @@ The +5V and GND headers are wired directly from the serial adapter to the UPDI h
 
 The UPDI pin is the bottom left UPDI header pin that has the square footprint in this schematic screenshot. The resistor needs to be connected to the TX wire of your Y cable. Ensure that your serial adapter voltage selection header is set to 5V.
 
-![UPDI header schematic](UPDI-header-pinout.png)
+![UPDI header schematic](images/UPDI-header-pinout.png)
 
-![USB serial to UPDI header wiring](UPDI-wiring.jpg)
+![USB serial to UPDI header wiring](images/UPDI-wiring.jpg)
 
 You should only need to have the ATtiny and the UPDI header soldered to the PCB to program it.
 
@@ -46,13 +46,13 @@ Make sure you set the serial port device correctly by checking **dmesg** output 
 
 The cable is connected to the J2 header using this pinout:
 
-![Mega Drive controller cable pinout](Mega-Drive-connector-pinout.jpg)
+![Mega Drive controller cable pinout](images/Mega-Drive-connector-pinout.jpg)
 
 Pin 1 on J2 and all of the chips is marked on the PCB silkscreen with a small white dot to the side of pin 1.
 
 Here's photo of this board wired up to a Sanwa clone joystick and housed within a 3D printed [Uzebox fightstick](https://uzebox.org/wiki/Joystick) case:
 
-![Sanwa joystick in Uzebox fightstick case](Wired--MD-controller.jpg)
+![Sanwa joystick in Uzebox fightstick case](images/Wired--MD-controller.jpg)
 
 ## Credits
 
